@@ -20,7 +20,7 @@ export default function Home() {
 					<AchieveCard key={heading} heading={heading} work={work} />
 				))}
 			</div>
-			<div id="about" className="flex items-center justify-around mx-24 mb-10 px-5 py-5 font-display bg-[#B0DAFF] border-black border-[1px]  rounded-md">
+			<div id="about" className="flex items-center justify-around mx-24 mb-10 px-5 py-5 font-display bg-light2 border-black border-[1px]  rounded-md">
 				<Image
 					src={softwareImg}
 					alt="Software Image"
@@ -38,8 +38,8 @@ export default function Home() {
 					</p>
 				</div>
 			</div>
-			<div className="min-w-full h-12 text-white flex items-center justify-center bg-[#19A7CE] mb-5">
-				<h1 className="text-lg font-display">Copyright © <span className="text-[#FEFF86]">HoneyBadgersCo Pvt Ltd</span></h1>
+			<div className="min-w-full h-12 text-white flex items-center justify-center bg-dark1 mb-5">
+				<h1 className="text-lg font-display">Copyright © <span className="text-light1">HoneyBadgersCo Pvt Ltd</span></h1>
 			</div>
 		</main>
 	)

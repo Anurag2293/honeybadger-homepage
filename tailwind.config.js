@@ -14,6 +14,12 @@ module.exports = {
       },
       fontFamily: {
         'display': ['Poppins', 'sans-serif']
+      },
+      colors: {
+        'light1': '#FEFF86',
+        'light2': '#B0DAFF',
+        'dark1': '#19A7CE',
+        'dark2': '#146C94'
       }
     },
   },

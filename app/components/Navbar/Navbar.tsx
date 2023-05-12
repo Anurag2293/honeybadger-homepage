@@ -30,7 +30,7 @@ export default function Navbar() {
 
                         return (
                             <Link
-                                className={isActive ? 'text-[#FEFF86]' : 'text-white'}
+                                className={isActive ? 'text-light1' : 'text-white'}
                                 href={link.href}
                                 key={link.name}
                             >{link.name}</Link>

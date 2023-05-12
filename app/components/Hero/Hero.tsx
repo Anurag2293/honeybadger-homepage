@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function Hero() {
     return (
-        <div className="min-w-full h-[80vh] flex flex-col justify-center items-center text-white bg-[#19A7CE]">
+        <div className="min-w-full h-[80vh] flex flex-col justify-center items-center text-white bg-dark1">
             <h1 className="text-6xl font-bold">HONEYBADGERSCO</h1>
             <p className="my-5 text-xl font-display">PASSION. POSSIBILITIES. INNOVATIONS!</p>
             <button className="h-14 py-3 px-6 bg-black text-2xl font-display font-bold rounded-md">
