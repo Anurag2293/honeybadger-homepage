@@ -20,6 +20,9 @@ module.exports = {
         'light2': '#B0DAFF',
         'dark1': '#19A7CE',
         'dark2': '#146C94'
+      },
+      backgroundImage: {
+        'about-hero': "url('/coding-1.avif')"
       }
     },
   },
