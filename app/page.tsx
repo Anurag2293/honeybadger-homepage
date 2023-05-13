@@ -30,12 +30,12 @@ export default function Home() {
 				/>
 				<div className="flex flex-col justify-between items-center h-64 px-40" >
 					<h1 className="underline font-bold text-3xl font-display ">What we do?</h1>
-					<p>
-						We are a technology and digital IT Consultation firm specializing in innovative software solutions.
-						We deliver high-quality and exceptional customer service.
-						We believe that technology has the power to change the world, and we're driven to play a role in shaping its future.
-						Whether it's making it easier for people to connect or improving how businesses operate, our goal is to use technology to positively impact people's lives.
-					</p>
+					<p>{`
+					We are a technology and digital IT Consultation firm specializing in innovative software solutions.
+					We deliver high-quality and exceptional customer service.
+					We believe that technology has the power to change the world, and we're driven to play a role in shaping its future.
+					Whether it's making it easier for people to connect or improving how businesses operate, our goal is to use technology to positively impact people's lives.
+					`}</p>
 				</div>
 			</div>
 		</main>
