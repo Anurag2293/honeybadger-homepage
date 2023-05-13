@@ -15,7 +15,7 @@ export default function Navbar() {
     const pathname = usePathname();
 
     return (
-        <div className="bg-[#146C94] flex items-center justify-between lg:py-4 lg:px-8 font-display">
+        <div className="bg-dark2 flex items-center justify-between lg:py-4 lg:px-8 font-display">
             <div className="">
                 <Link className="text-2xl text-white" href={'/'}>HoneyBadgersCo</Link>
             </div>
